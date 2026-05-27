@@ -137,9 +137,9 @@ spec:
         - name: cloudinitdisk
           cloudInitNoCloud:
             secretRef:
-              name: hartmann-fleet-app-cloudinit
+              name: hartmann-fleet-cloudinit
             networkDataSecretRef:
-              name: hartmann-fleet-app-cloudinit
+              name: hartmann-fleet-cloudinit
       affinity: {}
       terminationGracePeriodSeconds: 120
       accessCredentials: []
