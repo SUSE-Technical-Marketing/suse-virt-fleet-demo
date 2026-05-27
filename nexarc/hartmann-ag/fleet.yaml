@@ -1,0 +1,5 @@
+defaultNamespace: tenant-hartmann-ag
+overrideTargets:
+  - clusterSelector:
+      matchLabels:
+        tenant: "hartmann-ag"
